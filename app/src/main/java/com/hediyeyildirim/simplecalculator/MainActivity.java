@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (numberText1.getText().toString().matches("") || numberText2.getText().toString().matches("")) {
 
-            resultText.setText("Enter number!");
+            resultText.setText("Enter number!!");
 
         } else {
             int number1 = Integer.parseInt(numberText1.getText().toString());
